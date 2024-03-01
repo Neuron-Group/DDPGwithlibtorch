@@ -1,0 +1,42 @@
+
+aux_source_directory (. SRC_LIST)
+include_directories (../include)
+
+# 如果使用 torch 内置的 libtorch
+# set(CMAKE_PREFIX_PATH /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/share/cmake)
+execute_process(COMMAND python -c "import torch;print(torch.utils.cmake_prefix_path)"
+                OUTPUT_VARIABLE TORCH_PATH
+                OUTPUT_STRIP_TRAILING_WHITESPACE)
+set(CMAKE_PREFIX_PATH ${TORCH_PATH})
+
+find_package(Torch REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FALGS}")
+
+# 添加 Torch 的头文件路径
+include_directories(${TORCH_INCLUDE_DIRS})
+
+add_compile_options(-fpermissive)
+
+# aux_source_directory (. LIB_LIST)
+# file(GLOB LIB_LIST "../include/*.hpp")
+set(
+    LIB_LIST
+    ./Agent.cpp
+    ./Data.cpp
+    ./Model.cpp
+    ./Noise.cpp
+    ./Pars.cpp
+    ./ReplayMemory.cpp
+)
+
+add_executable(${PROJECT_NAME} ${SRC_LIST})
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+add_library(lib SHARED ${LIB_LIST})
+set_target_properties(lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
+
+# 添加链接库
+target_link_libraries(${PROJECT_NAME} "${TORCH_LIBRARIES}")
+set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 20)
+
+
