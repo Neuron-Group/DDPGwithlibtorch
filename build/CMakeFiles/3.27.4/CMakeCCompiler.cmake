@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/usr/bin/cc")
+set(CMAKE_C_COMPILER "/home/linuxbrew/.linuxbrew/bin/gcc-13")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "13.2.0")
@@ -22,9 +22,9 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-13")
+set(CMAKE_C_COMPILER_AR "/home/linuxbrew/.linuxbrew/bin/gcc-ar-13")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib-13")
+set(CMAKE_C_COMPILER_RANLIB "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-13")
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
@@ -68,7 +68,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include;/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include-fixed/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include-fixed;/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/include;/home/linuxbrew/.linuxbrew/include;/usr/include/x86_64-linux-gnu;/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13;/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc;/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/lib/gcc/current;/home/linuxbrew/.linuxbrew/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

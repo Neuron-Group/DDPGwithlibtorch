@@ -1,0 +1,128 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include-fixed/x86_64-linux-gnu",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include-fixed",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/include",
+						"/home/linuxbrew/.linuxbrew/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current",
+						"/lib/x86_64-linux-gnu",
+						"/usr/lib/x86_64-linux-gnu",
+						"/home/linuxbrew/.linuxbrew/lib/gcc/current",
+						"/home/linuxbrew/.linuxbrew/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/home/linuxbrew/.linuxbrew/bin/gcc-13",
+				"version" : "13.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "/usr/local/cuda/bin/nvcc"
+			},
+			"language" : "CUDA"
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/include/c++/13",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/include/c++/13/x86_64-pc-linux-gnu",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/include/c++/13/backward",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include-fixed/x86_64-linux-gnu",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13/include-fixed",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/include",
+						"/home/linuxbrew/.linuxbrew/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/13",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc",
+						"/home/linuxbrew/.linuxbrew/Cellar/gcc/13.2.0/lib/gcc/current",
+						"/lib/x86_64-linux-gnu",
+						"/usr/lib/x86_64-linux-gnu",
+						"/home/linuxbrew/.linuxbrew/lib/gcc/current",
+						"/home/linuxbrew/.linuxbrew/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/home/linuxbrew/.linuxbrew/bin/g++-13",
+				"version" : "13.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/neuron/Projects/libtorchProjects/libDDPG/bin/libDDPG"
+			"path" : "/home/neuron/Projects/DDPGwithlibtorch/bin/libDDPG"
 		}
 	],
 	"backtrace" : 1,
@@ -140,7 +140,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++20"
+					"fragment" : "-g -std=gnu++20"
 				},
 				{
 					"backtrace" : 16,
@@ -178,7 +178,7 @@
 			[
 				{
 					"backtrace" : 17,
-					"path" : "/home/neuron/Projects/libtorchProjects/libDDPG/src/../include"
+					"path" : "/home/neuron/Projects/DDPGwithlibtorch/src/../include"
 				},
 				{
 					"backtrace" : 2,
@@ -223,6 +223,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"

@@ -11,9 +11,9 @@
 
 // [state_seq, action] -> [state_next_predict]
 // reward = -mse(state_next_predict, state_next)
-class Reward_NetImpl : public torch::nn::Module {
+class Reward_Net : public torch::nn::Module {
 public:
-  Reward_NetImpl(Pars pars) {
+  Reward_Net(Pars pars) {
     lstm = torch::nn::LSTM(
         torch::nn::LSTMOptions(pars.state_size, pars.lstm_hidden_size)
             .num_layers(pars.lstm_num_layers)
@@ -49,11 +49,10 @@ private:
   torch::nn::Linear fc2 = nullptr;
   torch::nn::Linear fc3 = nullptr;
 };
-TORCH_MODULE(Reward_Net);
 
 class Reward {
 public:
-  Reward_NetImpl *net;
+  Reward_Net *net;
   torch::optim::Adam *optimizer;
   Pars *pars;
   bool is_train;
@@ -68,7 +67,7 @@ public:
 
   Reward(Pars pars) {
     this->is_train = true;
-    this->net = new Reward_NetImpl(pars);
+    this->net = new Reward_Net(pars);
     this->optimizer = new torch::optim::Adam(net->parameters(), pars.lr_critic);
     this->pars = new Pars(pars);
     this->memory =

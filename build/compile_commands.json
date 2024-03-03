@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/Agent.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/Agent.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/Agent.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/Agent.cpp.o"
+},
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/Data.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/Data.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/Data.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/Data.cpp.o"
+},
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/Model.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/Model.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/Model.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/Model.cpp.o"
+},
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/Noise.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/Noise.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/Noise.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/Noise.cpp.o"
+},
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/Pars.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/Pars.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/Pars.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/Pars.cpp.o"
+},
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/ReplayMemory.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/ReplayMemory.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/ReplayMemory.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/ReplayMemory.cpp.o"
+},
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/Reward.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/Reward.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/Reward.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/Reward.cpp.o"
+},
+{
+  "directory": "/home/neuron/Projects/DDPGwithlibtorch/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-13 -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/neuron/Projects/DDPGwithlibtorch/src/../include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include -isystem /home/neuron/anaconda3/envs/PyTorch/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -std=gnu++20 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 -o src/CMakeFiles/libDDPG.dir/main.cpp.o -c /home/neuron/Projects/DDPGwithlibtorch/src/main.cpp",
+  "file": "/home/neuron/Projects/DDPGwithlibtorch/src/main.cpp",
+  "output": "src/CMakeFiles/libDDPG.dir/main.cpp.o"
+}
+]

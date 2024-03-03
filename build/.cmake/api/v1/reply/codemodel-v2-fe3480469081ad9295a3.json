@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -34,7 +34,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -55,7 +55,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "libDDPG::@145eef247bfb46b6828c",
-					"jsonFile" : "target-libDDPG-1ff04310673d142bb081.json",
+					"jsonFile" : "target-libDDPG-Debug-695ee8a7cc805a5a5b6f.json",
 					"name" : "libDDPG",
 					"projectIndex" : 0
 				}
@@ -65,8 +65,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/neuron/Projects/libtorchProjects/libDDPG/build",
-		"source" : "/home/neuron/Projects/libtorchProjects/libDDPG"
+		"build" : "/home/neuron/Projects/DDPGwithlibtorch/build",
+		"source" : "/home/neuron/Projects/DDPGwithlibtorch"
 	},
 	"version" : 
 	{
